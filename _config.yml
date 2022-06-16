@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Manuel Araújo"
 title_separator          : "-"
 name                     : &name "Manuel Araújo"
-description              : &description "Postdoc at the University of Lisbon"
+description              : &description "Postdoctoral researcher in Mathematics"
 url                      : https://mlharaujo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mlharaujo/mlharaujo.github.io"
@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "manuel.araujo@tecnico.ulisboa.pt"
   generatedFields:
     date:
       type               : "date"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Manuel Araújo"
   avatar           : "profile.png"
-  bio              : "Postdoc at the University of Lisbon. Interested in topological field theory and related higher algebraic and categorical structures."
+  bio              : "Postdoctoral researcher in Mathematics."
   location         : "Lisbon, Portugal"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "manuel.araujo@tecnico.ulisboa.pt"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
