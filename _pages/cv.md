@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-*  2017/2018: Visiting Researcher
+* 2017/2018: Visiting Researcher
   * Max Planck Institute for Mathematics, Bonn
 
 * 2018/2019: Postdoctoral Researcher
