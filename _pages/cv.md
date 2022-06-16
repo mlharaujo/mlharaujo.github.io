@@ -11,30 +11,22 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Licenciatura em Matemática Aplicada e Computação, Instituto Superior Técnico, 2011
+* Mestrado em Matemática e Aplicações, Instituto Superior Técnico, 2013
+* D.Phil in Mathematics, University of Oxford, 2017
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+*  2017/2018: Visiting Researcher
+  * Max Planck Institute for Mathematics, Bonn
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2018/2019: Postdoctoral Researcher
+  * University of Hamburg
+  * Part of the Research Training Group "Mathematics Inspired by String Theory and Quantum Field Theory"
+
+* 2019 - 2022: Postdoctoral Researcher
+  * Instituto Superior Técnico, University of Lisbon
+  * Part of the "Higher Structures and Applications" research project.
 
 Publications
 ======
@@ -53,7 +45,4 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+ 
