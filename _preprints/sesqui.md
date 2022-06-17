@@ -1,7 +1,7 @@
 ---
 title: "Simple string diagrams and n-sesquicategories"
-collection: publications
-permalink: /publication/sesqui
+collection: preprints
+permalink: /preprint/sesqui
 excerpt: 'We define a monad TDsn whose operations are encoded by simple string diagrams and we define n-sesquicategories as algebras over this monad. This monad encodes the compositional structure of n-dimensional string diagrams. We give a generators and relations description of TDsn, which allows us to describe n-sesquicategories as globular sets equipped with associative and unital composition and whiskering operations. One can also see them as strict n-categories without interchange laws. Finally we give an inductive characterization of n-sesquicategories.'
 date: 2022-02-18
 venue: 'submitted'
