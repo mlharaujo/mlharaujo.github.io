@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Download a pdf version of my full CV [here](http://mlharaujo.github.io/files/cv_new.pdf).
+
 Education
 ======
 * Licenciatura em Matemática Aplicada e Computação, Instituto Superior Técnico, 2011
@@ -27,12 +29,3 @@ Work experience
 * 2019 - 2022: Postdoctoral Researcher
   * Instituto Superior Técnico, University of Lisbon
   * Part of the "Higher Structures and Applications" research project.
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-  Download a pdf version of my full CV [here](http://mlharaujo.github.io/files/cv_new.pdf).
- 
