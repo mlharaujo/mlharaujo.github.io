@@ -34,5 +34,5 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-  
+  Download a pdf version of my full CV [here](http://mlharaujo.github.io/files/cv_new.pdf).
  
