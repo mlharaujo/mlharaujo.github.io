@@ -27,7 +27,7 @@ Work experience
 * 2019 - 2022: Postdoctoral Researcher
   * Instituto Superior Técnico, University of Lisbon
   * Part of the "Higher Structures and Applications" research project.
-<<<<<<< HEAD
+  
 =======
 
 Publications
