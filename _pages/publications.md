@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-Published
+Published Papers
 ======
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
@@ -20,5 +20,12 @@ Published
 Preprints
 ======
 {% for post in site.preprints reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+PhD Thesis
+======
+
+{% for post in site.thesis reversed %}
   {% include archive-single.html %}
 {% endfor %}
