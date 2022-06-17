@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "publications"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
@@ -25,7 +25,6 @@ Preprints
 
 PhD Thesis
 ======
-
 {% for post in site.thesis reversed %}
   {% include archive-single.html %}
 {% endfor %}

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Manuel Araújo"
 title_separator          : "-"
 name                     : &name "Manuel Araújo"
-description              : &description "Postdoctoral researcher in Mathematics"
+description              : &description "Mathematician."
 url                      : https://mlharaujo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mlharaujo/mlharaujo.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Manuel Araújo"
   avatar           : "profile.png"
-  bio              : "Postdoctoral researcher in Mathematics."
+  bio              : "Mathematician. Interested in Topological Field Theory and related higher algebraic and categorical structures."
   location         : "Lisbon, Portugal"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
