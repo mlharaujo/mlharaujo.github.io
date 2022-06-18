@@ -63,13 +63,23 @@
     {% endif %}
     
     
-    <p><a href=" {{ post.arxiv }} "><u>arxiv</u></a></p>
+    {% if post.arxiv %}
+    
+      <p><a href=" {{ post.arxiv }} "><u>arxiv</u></a></p>
+
+    {% endif %}
 
     {% if post.journalurl %}
 
-    <p><a href=" {{ post.journalurl }} "><u>journal</u></a></p>
+      <p><a href=" {{ post.journalurl }} "><u>journal</u></a></p>
       
     {% endif %}
+
+  {% if post.journalurl %}
+
+    <p><a href=" {{ post.download }} "><u>download</u></a></p>
+    
+  {% endif %}
 
   </article>
 </div>
