@@ -24,8 +24,15 @@ Work experience
 
 * 2018/2019: Postdoctoral Researcher
   * University of Hamburg
+  * Department of Mathematics
   * Part of the Research Training Group "Mathematics Inspired by String Theory and Quantum Field Theory"
 
 * 2019 - 2022: Postdoctoral Researcher
   * Instituto Superior Técnico, University of Lisbon
-  * Part of the "Higher Structures and Applications" research project.
+  * Department of Mathematics
+  * Part of the "Higher Structures and Applications" research project
+
+* August 2022 - January 2023: Research Associate
+  * University of Cambridge
+  * Department of Computer Science and Technology
+  * Part of the Cambridge Logical Structures Hub
