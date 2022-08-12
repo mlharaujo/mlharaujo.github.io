@@ -17,6 +17,12 @@ Published Papers
   {% include archive-single.html %}
 {% endfor %}
 
+Accepted for Publication
+======
+{% for post in site.accepted reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
 Preprints
 ======
 {% for post in site.preprints reversed %}
