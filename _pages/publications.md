@@ -11,17 +11,17 @@ author_profile: true
 
 {% include base_path %}
 
-#Published Papers
-#======
-#{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-#{% endfor %}
-
-Accepted for Publication
+Published Papers
 ======
-{% for post in site.accepted reversed %}
+{% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+#Accepted for Publication
+#======
+#{% for post in site.accepted reversed %}
+  #{% include archive-single.html %}
+#{% endfor %}
 
 Preprints
 ======
