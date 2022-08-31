@@ -3,6 +3,12 @@ layout: archive
 title: ""
 permalink: /publications/
 author_profile: true
+
+#Accepted for Publication
+#======
+#{% for post in site.accepted reversed %}
+ # {% include archive-single.html %}
+#{% endfor %}
 ---
 
 {% if author.googlescholar %}
@@ -16,12 +22,6 @@ Published Papers
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-
-#Accepted for Publication
-#======
-#{% for post in site.accepted reversed %}
-  #{% include archive-single.html %}
-#{% endfor %}
 
 Preprints
 ======
