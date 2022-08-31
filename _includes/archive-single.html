@@ -82,6 +82,12 @@
       
     {% endif %}
 
+    {% if post.oajournalurl %}
+
+      <p><a href=" {{ post.journalurl }} "><u>journal</u></a> (Open access) </p>
+      
+    {% endif %}
+
   {% if post.download %}
 
     <p><a href=" {{ post.download }} "><u>download</u></a></p>
