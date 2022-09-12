@@ -53,7 +53,10 @@
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
         {% elsif post.collection == 'accepted' %}
-          {% if post.coauthor %}
+          {% if post.coauthorurl %}
+            <p>with {{ [post.coauthor](post.coauthorurl) }}</p>
+            <p>{{ post.date | default: "1900-01-01" | date: "%Y" }}. Accepted for publication in <i>{{ post.venue }}</i>. </p>
+          {% elsif post.coauthor %}
             <p>with {{ post.coauthor }}</p>
             <p>{{ post.date | default: "1900-01-01" | date: "%Y" }}. Accepted for publication in <i>{{ post.venue }}</i>. </p>
           {% else %}
