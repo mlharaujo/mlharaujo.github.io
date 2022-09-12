@@ -46,9 +46,12 @@
         {% elsif post.collection == 'thesis' %}
           <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          {% if post.coauthor%}
-            <p>with {{ post.coauthor }}</p>
+          {% if post.coauthorurl %}
+            <p>with {{ [post.coauthor](post.coauthorurl) }}</p>
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif post.coauthor %}
+            <p>with {{ post.coauthor }}</p>
+            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>  
           {% else %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
