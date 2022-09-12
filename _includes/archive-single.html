@@ -37,7 +37,10 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'preprints' %}
-          {% if post.coauthor %} 
+          {% if post.coauthorurl %}
+            <p>with <a href=" {{ post.coauthorurl }} ">{{ post.coauthor }}</a></p>
+            <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif post.coauthor %} 
             <p>with {{ post.coauthor }}</p> 
             <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% else %}
@@ -45,9 +48,10 @@
           {% endif %}
         {% elsif post.collection == 'thesis' %}
           <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> supervised by <a href=" {{ post.supervisorurl }} ">{{ post.supervisor }}</a></p>
         {% elsif post.collection == 'publications' %}
           {% if post.coauthorurl %}
-            <p>with <a href=" {{ post.coauthorurl }} "><u>{{ post.coauthor }}</u></a></p>
+            <p>with <a href=" {{ post.coauthorurl }} ">{{ post.coauthor }}</a></p>
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% elsif post.coauthor %}
             <p>with {{ post.coauthor }}</p>
@@ -57,7 +61,7 @@
           {% endif %}
         {% elsif post.collection == 'accepted' %}
           {% if post.coauthorurl %}
-            <p>with {{ [post.coauthor](post.coauthorurl) }}</p>
+            <p>with <a href=" {{ post.coauthorurl }} ">{{ post.coauthor }}</a></p>
             <p>{{ post.date | default: "1900-01-01" | date: "%Y" }}. Accepted for publication in <i>{{ post.venue }}</i>. </p>
           {% elsif post.coauthor %}
             <p>with {{ post.coauthor }}</p>
@@ -78,25 +82,25 @@
     
     {% if post.arxiv %}
     
-      <p><a href=" {{ post.arxiv }} "><u>arxiv</u></a></p>
+      <p><a href=" {{ post.arxiv }} ">arxiv</a></p>
 
     {% endif %}
 
     {% if post.journalurl %}
 
-      <p><a href=" {{ post.journalurl }} "><u>journal</u></a></p>
+      <p><a href=" {{ post.journalurl }} ">journal</a></p>
       
     {% endif %}
 
     {% if post.oajournalurl %}
 
-      <p><a href=" {{ post.oajournalurl }} "><u>journal</u></a> (Open access) </p>
+      <p><a href=" {{ post.oajournalurl }} ">journal</a> (Open access) </p>
       
     {% endif %}
 
   {% if post.download %}
 
-    <p><a href=" {{ post.download }} "><u>download</u></a></p>
+    <p><a href=" {{ post.download }} ">download</a></p>
     
   {% endif %}
 

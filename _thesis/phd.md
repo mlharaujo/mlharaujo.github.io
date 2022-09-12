@@ -10,6 +10,8 @@ We prove a characterization of full dualizability of an object X in terms of exi
 date: 2017-01-01
 venue: 'PhD thesis, Univeristy of Oxford'
 download: 'https://ora.ox.ac.uk/objects/uuid:a4b8f8de-a8e3-48c3-a742-82316a7bd8eb'
+supervisor: 'Christopher Douglas'
+supervisorurl: 'https://www.christopherleedouglas.com/'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 A fully extended framed topological field theory with target in a symmetric monoidal n-catgeory C is a symmetric monoidal functor Z from Bord(n) to C, where Bord(n) is the symmetric monoidal n-category of n-framed bordisms. The cobordism hypothesis says that such field theories are classified by fully dualizable objects in C.
