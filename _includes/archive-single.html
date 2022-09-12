@@ -47,7 +47,7 @@
           <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           {% if post.coauthorurl %}
-            <p>with {{ [post.coauthor](post.coauthorurl) }}</p>
+            <p>with <a href=" {{ post.coauthorurl }} "><u>{{ post.coauthor }}</u></a></p>
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% elsif post.coauthor %}
             <p>with {{ post.coauthor }}</p>
