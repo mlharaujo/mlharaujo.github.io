@@ -59,6 +59,8 @@
             {% elsif post.collection == 'accepted' %}
                 <p>{{ post.date | default: "1900-01-01" | date: "%Y" }}. Accepted for publication in <i>{{ post.venue }}</i>. </p>
 
+            {% endif %}
+
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
