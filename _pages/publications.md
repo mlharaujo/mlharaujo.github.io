@@ -23,7 +23,7 @@ Published Papers
   {% include archive-single.html %}
 {% endfor %}
 
-Accepted
+Accepted for Publication
 ======
 {% for post in site.accepted reversed %}
   {% include archive-single.html %}
