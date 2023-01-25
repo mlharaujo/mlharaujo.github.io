@@ -35,4 +35,6 @@ PhD Thesis
   {% include archive-single.html %}
 {% endfor %}
 
-Note: If you are color blind and would like a version of any of the above publications with a different color pallette, just send me an email!
+Colors 
+======
+If you are color blind and would like a version of any of the above publications with a different color pallette, just send me an email!
