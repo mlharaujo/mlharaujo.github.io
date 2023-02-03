@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "manuel.araujo@cst.cam.ac.uk"
+    email                : "manuel.araujo@tecnico.ulisboa.pt"
   generatedFields:
     date:
       type               : "date"
@@ -83,11 +83,11 @@ author:
   name             : "Manuel Araújo"
   avatar           : "profile.png"
   bio              : "Mathematician. Interested in Topological Field Theory and related higher algebraic and categorical structures."
-  location         : "Cambridge, UK"
+  location         : "Lisbon, Portugal"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "manuel.araujo@cst.cam.ac.uk"
+  email            : "manuel.araujo@tecnico.ulisboa.pt"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
