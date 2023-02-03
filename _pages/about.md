@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am currently postdoc at the [Cambridge Logical Structures Hub](https://www.cl.cam.ac.uk/research/clash/), a research group which is part of the [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) at the University of Cambridge. I will be here until January 2023, working with [Jamie Vicary](https://www.cl.cam.ac.uk/~jv258/) and his group.
+I am currently looking for a job! 
 
-I'm interested in Topological Field Theory and related higher algebraic and categorical structures. Recently, I have been using string diagrams to classify higher coherences for duals and adjoints in n-categories, which is related by the Cobordism Hypothesis to the question of finding finite presentations by generators and relations for fully extended bordism categories. 
+I'm interested in Topological Field Theory and related higher algebraic and categorical structures. Recently, I have been using string diagrams to classify higher coherences for duals and adjoints in n-categories, which is related by the Cobordism Hypothesis to the question of finding finite presentations by generators and relations for fully extended bordism categories. I have also been working on a theory of semistrict n-categories based on $n$-dimensional string diagrams (also called manifold diagrams).
 
-Until recently, I was a postdoc at the Mathematics Department of Instituto Superior Técnico, in Lisbon. Before that, I did postdocs at the University of Hamburg and the Max Planck Institute for Mathematics in Bonn. Before that, I was a PhD student at the University of Oxford, supervised by [Christohper Douglas](https://www.christopherleedouglas.com/).
+ Until January 2023, I was a postdoc at the University of Cambridge's Department of Computer Science and Technology. Before that, I did postdocs at Instituto Superior Técnico (in Lisbon), the University of Hamburg and the Max Planck Institute for Mathematics (in Bonn). Before that, I did a PhD in Mathematics at the University of Oxford, supervised by [Christohper Douglas](https://www.christopherleedouglas.com/).
