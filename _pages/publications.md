@@ -37,7 +37,3 @@ PhD Thesis
 {% for post in site.thesis reversed %}
   {% include archive-single.html %}
 {% endfor %}
-
-Colors 
-======
-If you are color blind and would like a version of any of the above publications with a different color pallette, just send me an email!
